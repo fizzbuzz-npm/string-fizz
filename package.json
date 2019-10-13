@@ -1,0 +1,25 @@
+{
+  "name": "letter-z",
+  "version": "1.0.0",
+  "description": "The string \"fizz\"",
+  "homepage": "https://github.com/fizzbuzz-npm/string-fizz",
+  "repository": "github:fizzbuzz-npm/string-fizz",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "lint-fix": "eslint --fix index.js",
+    "test": "ava"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "eslint": "^6.5.1"
+  },
+  "dependencies": {
+    "general-concat": "^1.0.0",
+    "letter-f": "^1.0.0",
+    "letter-i": "^1.0.0",
+    "letter-z": "^1.0.0"
+  }
+}
